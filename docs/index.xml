@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ritchie Pub.</title>
+    <title>Getting Rich with a Geeky Way</title>
     <link>http://money.geekylife.net/</link>
-    <description>Recent content on Ritchie Pub.</description>
+    <description>Recent content on Getting Rich with a Geeky Way</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-Hans</language>
-    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
+    <copyright>© Money Geeky Life 2017.</copyright>
     <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://money.geekylife.net/index.xml" rel="self" type="application/rss+xml" />

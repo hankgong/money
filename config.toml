@@ -1,6 +1,5 @@
 baseURL = "http://money.geekylife.net"
-languageCode = "zh-Hans"
-title = "Ritchie Pub."
+title = "Getting Rich with a Geeky Way"
 theme = "hugo-nuo"
 enableRobotsTXT = true
 pygmentsuseclasses = true
@@ -9,42 +8,42 @@ canonifyurls = true
 publishDir = "docs"
 
 # Disqus Username
-disqusShortname = "melaozhu"
+disqusShortname = "money-geeky-life"
 
 # Google Analytics UA number
-googleAnalytics = "UA-33369276-1"
+googleAnalytics = "UA-106504664-1"
 
 # Copyright of your post
-copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce."
+copyright = "© Money Geeky Life 2017."
 
 # Initial site menu, you can extend menu with content.
 [[menu.main]]
-  name = "首页"
+  name = "Home"
   weight = 10
   identifier = "home"
   url = "/"
 
 [[menu.main]]
-  name = "作品"
+  name = "Works"
   weight = 20
   identifier = "works"
   url = "https://github.com/laozhu"
 
 # Add your own params here
 [params]
-  author = "米老朱"
+  author = "Money Geeker"
   avatar = "/img/avatar.jpg"
-  seotitle = "米老朱的博客 Ritchie Pub."
-  subtitle = "~ 带着爱和梦想生活 ~"
-  description = "这里是 @米老朱 的个人博客，记录他在互联网新世界探索的点点滴滴 This is melaozhu's personal blog, he takes note here while exploring the new world."
+  seotitle = "Money Geeky Life"
+  subtitle = "~ Save, Invest, Contribute ~"
+  description = "This is melaozhu's personal blog, he takes note here while exploring the new world."
   paginate = 10
 
   # Choose your social networks
-  email = "laozhu.me@gmail.com"
-  github = "laozhu"
-  twitter = "melaozhu"
-  linkedin = "melaozhu"
-  wechat= "/img/qrcode.jpg"  # Replace with your wechat qrcode image
+  email = "moneygeekylife@gmail.com"
+  # github = "laozhu"
+  # twitter = "melaozhu"
+  # linkedin = "melaozhu"
+  # wechat= "/img/qrcode.jpg"  # Replace with your wechat qrcode image
   # facebook = "melaozhu"
   # google = "109063353665074282689"
   # instagram = "melaozhu"
@@ -62,9 +61,9 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   # bilibili = "13395348"
 
   # Changyan Comments (China Only)
-  changyan = true
-  changyanId = "cyt3toRiB"
-  changyanConf = "prod_0908b1cb9a581501753cce1ed074dbe3"
+  # changyan = true
+  # changyanId = "cyt3toRiB"
+  # changyanConf = "prod_0908b1cb9a581501753cce1ed074dbe3"
 
   # Google Webmaster
   # https://www.google.com/webmasters/
@@ -72,8 +71,8 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 
   # Bing Webmaster
   # https://www.bing.com/toolbox/webmaster/
-  msValidate = "22596E34341DD1D17D6022C44647E587"
+  # msValidate = "22596E34341DD1D17D6022C44647E587"
 
   # Sogou Webmaster (China Only)
   # http://zhanzhang.sogou.com/
-  sogouSiteVerification = "m2jktMQTZm"
+  #sogouSiteVerification = "m2jktMQTZm"

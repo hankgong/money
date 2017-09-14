@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-Hans">
+<html lang="">
 <head>
 
   <meta charset="utf-8" />
@@ -21,7 +21,7 @@ We&amp;rsquo;ll start with creating a new site with a very basic template." />
   
   
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@melaozhu" />
+    <meta name="twitter:site" content="@gohugoio" />
     <meta name="twitter:title" content="Creating a New Theme" />
     <meta name="twitter:description" content="Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template." />
@@ -35,7 +35,7 @@ We&amp;rsquo;ll start with creating a new site with a very basic template." />
 
 
 <link rel="canonical" href="http://money.geekylife.net/post/creating-a-new-theme/" />
-<link rel="alternative" href="http://money.geekylife.net/index.xml" title="Ritchie Pub." type="application/atom+xml" />
+<link rel="alternative" href="http://money.geekylife.net/index.xml" title="Getting Rich with a Geeky Way" type="application/atom+xml" />
 
 
 <meta name="renderer" content="webkit" />
@@ -47,16 +47,16 @@ We&amp;rsquo;ll start with creating a new site with a very basic template." />
 <meta name="robots" content="index,follow" />
 <meta name="referrer" content="origin-when-cross-origin" />
 <meta name="google-site-verification" content="_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc" />
-<meta name="msvalidate.01" content="22596E34341DD1D17D6022C44647E587" />
 
-<meta name="sogou_site_verification" content="m2jktMQTZm" />
+
+
 
 
 
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-<meta name="apple-mobile-web-app-title" content="Ritchie Pub." />
-<meta name="msapplication-tooltip" content="Ritchie Pub." />
+<meta name="apple-mobile-web-app-title" content="Getting Rich with a Geeky Way" />
+<meta name="msapplication-tooltip" content="Getting Rich with a Geeky Way" />
 <meta name='msapplication-navbutton-color' content="#5fbf5e" />
 <meta name="msapplication-TileColor" content="#5fbf5e" />
 <meta name="msapplication-TileImage" content="/img/tile-image-windows.png" />
@@ -99,7 +99,7 @@ We&amp;rsquo;ll start with creating a new site with a very basic template." />
       <a title="Go to top" class="to-top is-hide"><span class="icon icon-up"></span></a>
       
         
-        <a title="Go to comments" class="to-comment" href="#SOHUCS"><span class="icon icon-comment"></span></a>
+        <a title="Go to comments" class="to-comment" href="#disqus_thread"><span class="icon icon-comment"></span></a>
         
       
     </div>
@@ -108,9 +108,9 @@ We&amp;rsquo;ll start with creating a new site with a very basic template." />
   <header class="site-header">
   <img class="avatar" src="http://money.geekylife.net/img/avatar.jpg" alt="Avatar">
   
-  <h2 class="title">Ritchie Pub.</h2>
+  <h2 class="title">Getting Rich with a Geeky Way</h2>
   
-  <p class="subtitle">~ 带着爱和梦想生活 ~</p>
+  <p class="subtitle">~ Save, Invest, Contribute ~</p>
   <button class="menu-toggle" type="button">
     <span class="icon icon-menu"></span>
   </button>
@@ -121,9 +121,9 @@ We&amp;rsquo;ll start with creating a new site with a very basic template." />
       
       
       
-        <li class="menu-item  is-active"><a href="http://money.geekylife.net/">首页</a></li>
+        <li class="menu-item  is-active"><a href="http://money.geekylife.net/">Home</a></li>
       
-        <li class="menu-item "><a href="https://github.com/laozhu">作品</a></li>
+        <li class="menu-item "><a href="https://github.com/laozhu">Works</a></li>
       
     </ul>
   </nav>
@@ -133,16 +133,7 @@ We&amp;rsquo;ll start with creating a new site with a very basic template." />
 
       
       <li class="social-item">
-        <a href="mailto:laozhu.me@gmail.com" title="Email"><span class="icon icon-email"></span></a>
-      </li>
-
-      
-      <li class="social-item">
-        <a href="//github.com/laozhu" title="GitHub"><span class="icon icon-github"></span></a>
-      </li>
-
-      <li class="social-item">
-        <a href="//twitter.com/melaozhu" title="Twitter"><span class="icon icon-twitter"></span></a>
+        <a href="mailto:moneygeekylife@gmail.com" title="Email"><span class="icon icon-email"></span></a>
       </li>
 
       
@@ -171,13 +162,13 @@ We&amp;rsquo;ll start with creating a new site with a very basic template." />
 
       
 
-      <li class="social-item">
-        <a href="http://money.geekylife.net/img/qrcode.jpg" title="Wechat"><span class="icon icon-wechat"></span></a>
-      </li>
+      
 
-      <li class="social-item">
-        <a href="//www.linkedin.com/in/melaozhu" title="Linkedin"><span class="icon icon-linkedin"></span></a>
-      </li>
+      
+
+      
+
+      
 
       
 
@@ -1303,27 +1294,35 @@ $ vi themes/zafta/layouts/_default/single.html
       </ul>
       
       <p class="post-copyright">
-        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.This post was published <strong>1081</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
+        © Money Geeky Life 2017.This post was published <strong>1082</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
       </p>
     </footer>
     
-      
-      <div id="cyReward" role="cylabs" data-use="reward"></div>
-      <script src="//changyan.itc.cn/js/lib/jquery.js"></script>
-      <script src="//changyan.sohu.com/js/changyan.labs.https.js?appid=cyt3toRiB"></script>
-      <div id="SOHUCS" sid="/post/creating-a-new-theme/" ></div>
-      <script>
-      (function(){
-      var appid = 'cyt3toRiB';
-      var conf = 'prod_0908b1cb9a581501753cce1ed074dbe3';
-      var width = window.innerWidth || document.documentElement.clientWidth;
-      if (width < 960) {
-      window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
+      <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "money-geeky-life" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
       
     
   </section>
   <footer class="site-footer">
-  <p>© 2017 Ritchie Pub.</p>
+  <p>© 2017 Getting Rich with a Geeky Way</p>
   <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank">Nuo</a>.</p>
   
 </footer>
@@ -1343,7 +1342,7 @@ MathJax.Hub.Config({
 
 <script>
 window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-33369276-1', 'auto');
+ga('create', 'UA-106504664-1', 'auto');
 ga('send', 'pageview');
 </script>
 <script async src='//www.google-analytics.com/analytics.js'></script>
