@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Getting Rich with a Geeky Way</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Money Geeky Life 2017.</copyright>
-    <lastBuildDate>Mon, 28 Jul 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Sep 2017 23:31:01 -0400</lastBuildDate>
     
 	<atom:link href="http://money.geekylife.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Business</title>
+      <link>http://money.geekylife.net/tags/business/</link>
+      <pubDate>Wed, 20 Sep 2017 23:31:01 -0400</pubDate>
+      
+      <guid>http://money.geekylife.net/tags/business/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Development</title>
@@ -53,6 +62,15 @@
       <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
       
       <guid>http://money.geekylife.net/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tax</title>
+      <link>http://money.geekylife.net/tags/tax/</link>
+      <pubDate>Wed, 20 Sep 2017 23:31:01 -0400</pubDate>
+      
+      <guid>http://money.geekylife.net/tags/tax/</guid>
       <description></description>
     </item>
     
