@@ -6,32 +6,18 @@
     <description>Recent content in Business on Getting Rich with a Geeky Way</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Money Geeky Life 2017.</copyright>
-    <lastBuildDate>Wed, 20 Sep 2017 23:31:01 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 14 Sep 2017 23:31:01 -0400</lastBuildDate>
     
 	<atom:link href="http://money.geekylife.net/tags/business/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Google Sheet XIRR Function to Calculate Annual Return Rate</title>
-      <link>http://money.geekylife.net/post/xirr-usage/</link>
-      <pubDate>Wed, 20 Sep 2017 23:31:01 -0400</pubDate>
-      
-      <guid>http://money.geekylife.net/post/xirr-usage/</guid>
-      <description>Function introduction. What is XIRR.
-Example.
-Real usage.</description>
-    </item>
-    
-    <item>
-      <title>HST Return with Quick Method at Ontario</title>
+      <title>HST Remitting with Quick Method at Ontario</title>
       <link>http://money.geekylife.net/post/hst.quick.method/</link>
       <pubDate>Thu, 14 Sep 2017 23:31:01 -0400</pubDate>
       
       <guid>http://money.geekylife.net/post/hst.quick.method/</guid>
-      <description>My accountant told me that I need pay a large amount of HST for next year. I started to understand why this quick method is.
-Assuming the total income excluding HST is $I$ here, the total HST will be $0.13 \times I$. Say you have $T$ taxable expenses.
- Regular return method  $$R_{r} = 0.13 \times I - \frac{T \times 13}{113}$$
- Quick method omitting the 300 plus little amount (Simplified for calculation)  $$R_{q} = 113\% \times I \times 8.</description>
+      <description>My accountant just helped me with reporting my corporation tax T2 for year 2016. It ended up with owing a large amount of HST to the Mr. Taxman. To understand how HST is calculated, I read more and understand what regular / quick method of accounting is. You can find several posts (e.g. here ) which give a clear explanation. Basically, it makes sense for most small entrepreneur to use quick method to remit HST.</description>
     </item>
     
   </channel>

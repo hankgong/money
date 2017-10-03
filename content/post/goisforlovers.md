@@ -1,6 +1,7 @@
 ---
 title: (Hu)go Template Primer
 tags: ["go", "golang", "templates", "themes", "development"]
+draft: true
 date: 2014-07-28
 ---
 
