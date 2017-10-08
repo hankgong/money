@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Corporate Tax on Getting Rich in a Geeky Way</title>
+    <link>http://money.geekylife.net/tags/corporate-tax/</link>
+    <description>Recent content in Corporate Tax on Getting Rich in a Geeky Way</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© Money Geeky Life 2017.</copyright>
+    <lastBuildDate>Thu, 14 Sep 2017 23:31:01 -0400</lastBuildDate>
+    
+	<atom:link href="http://money.geekylife.net/tags/corporate-tax/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HST Remitting with Quick Method at Ontario</title>
+      <link>http://money.geekylife.net/post/hst-quick-method/</link>
+      <pubDate>Thu, 14 Sep 2017 23:31:01 -0400</pubDate>
+      
+      <guid>http://money.geekylife.net/post/hst-quick-method/</guid>
+      <description>My accountant just helped me with reporting my corporation tax T2 for year 2016. It ended up with owing a large amount of HST to the Mr. Taxman. To understand how HST is calculated, I read more and understand what regular / quick method of accounting is. You can find several posts (e.g. here ) which give a clear explanation. Basically, it makes sense for most small entrepreneur to use quick method to remit HST.</description>
+    </item>
+    
+  </channel>
+</rss>

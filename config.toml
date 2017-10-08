@@ -1,5 +1,5 @@
 baseURL = "http://money.geekylife.net"
-title = "Getting Rich with a Geeky Way"
+title = "Getting Rich in a Geeky Way"
 theme = "hugo-nuo"
 enableRobotsTXT = true
 pygmentsuseclasses = true
@@ -18,16 +18,22 @@ copyright = "© Money Geeky Life 2017."
 
 # Initial site menu, you can extend menu with content.
 [[menu.main]]
-  name = "Home"
+  name = "Blogs"
   weight = 10
-  identifier = "home"
-  url = "/"
+  identifier = "blogs"
+  url = "/post/"
 
 [[menu.main]]
-  name = "Works"
+  name = "Business"
   weight = 20
-  identifier = "works"
-  url = "https://github.com/laozhu"
+  identifier = "business"
+  url = "/categories/business"
+
+[[menu.main]]
+  name = "Dividends"
+  weight = 30
+  identifier = "dividend"
+  url = "/categories/dividend"
 
 # Add your own params here
 [params]

@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Getting Rich with a Geeky Way</title>
+    <title>Categories on Getting Rich in a Geeky Way</title>
     <link>http://money.geekylife.net/categories/</link>
-    <description>Recent content in Categories on Getting Rich with a Geeky Way</description>
+    <description>Recent content in Categories on Getting Rich in a Geeky Way</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Money Geeky Life 2017.</copyright>
+    <lastBuildDate>Thu, 14 Sep 2017 23:31:01 -0400</lastBuildDate>
     
 	<atom:link href="http://money.geekylife.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Business</title>
+      <link>http://money.geekylife.net/categories/business/</link>
+      <pubDate>Thu, 14 Sep 2017 23:31:01 -0400</pubDate>
+      
+      <guid>http://money.geekylife.net/categories/business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dividend</title>
+      <link>http://money.geekylife.net/categories/dividend/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://money.geekylife.net/categories/dividend/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

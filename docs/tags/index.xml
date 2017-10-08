@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Getting Rich with a Geeky Way</title>
+    <title>Tags on Getting Rich in a Geeky Way</title>
     <link>http://money.geekylife.net/tags/</link>
-    <description>Recent content in Tags on Getting Rich with a Geeky Way</description>
+    <description>Recent content in Tags on Getting Rich in a Geeky Way</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Money Geeky Life 2017.</copyright>
     <lastBuildDate>Thu, 14 Sep 2017 23:31:01 -0400</lastBuildDate>
@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Business</title>
-      <link>http://money.geekylife.net/tags/business/</link>
+      <title>Corporate Tax</title>
+      <link>http://money.geekylife.net/tags/corporate-tax/</link>
       <pubDate>Thu, 14 Sep 2017 23:31:01 -0400</pubDate>
       
-      <guid>http://money.geekylife.net/tags/business/</guid>
+      <guid>http://money.geekylife.net/tags/corporate-tax/</guid>
       <description></description>
     </item>
     
@@ -35,15 +35,6 @@
       <pubDate>Wed, 20 Sep 2017 23:31:01 -0400</pubDate>
       
       <guid>http://money.geekylife.net/tags/spreadsheet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tax</title>
-      <link>http://money.geekylife.net/tags/tax/</link>
-      <pubDate>Thu, 14 Sep 2017 23:31:01 -0400</pubDate>
-      
-      <guid>http://money.geekylife.net/tags/tax/</guid>
       <description></description>
     </item>
     

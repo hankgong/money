@@ -1,15 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Getting Rich with a Geeky Way</title>
+    <title>Getting Rich in a Geeky Way</title>
     <link>http://money.geekylife.net/</link>
-    <description>Recent content on Getting Rich with a Geeky Way</description>
+    <description>Recent content on Getting Rich in a Geeky Way</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Money Geeky Life 2017.</copyright>
-    <lastBuildDate>Wed, 20 Sep 2017 23:31:01 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://money.geekylife.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blogroll</title>
+      <link>http://money.geekylife.net/links/</link>
+      <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://money.geekylife.net/links/</guid>
+      <description>Other inverstors&amp;rsquo; links.</description>
+    </item>
+    
+    <item>
+      <title>2017 September Dividends Update</title>
+      <link>http://money.geekylife.net/post/div-2017-09/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://money.geekylife.net/post/div-2017-09/</guid>
+      <description>Since September is the quarterly dividends distribution month, the dividends income received this month is my best since I started my investment one and half years ago.
+According to the figure, we can see the average monthly dividends have reached a small milestone of $300/month. I was planning to increase the monthly dividends to $400/month at the end of this year, which requires another $30,000 under the assumption of 4% dividends rate.</description>
+    </item>
     
     <item>
       <title>Google Sheet XIRR Function Calculates CAGR (Compound Annual Growth Rate)</title>
@@ -24,10 +43,10 @@ Real usage.</description>
     
     <item>
       <title>HST Remitting with Quick Method at Ontario</title>
-      <link>http://money.geekylife.net/post/hst.quick.method/</link>
+      <link>http://money.geekylife.net/post/hst-quick-method/</link>
       <pubDate>Thu, 14 Sep 2017 23:31:01 -0400</pubDate>
       
-      <guid>http://money.geekylife.net/post/hst.quick.method/</guid>
+      <guid>http://money.geekylife.net/post/hst-quick-method/</guid>
       <description>My accountant just helped me with reporting my corporation tax T2 for year 2016. It ended up with owing a large amount of HST to the Mr. Taxman. To understand how HST is calculated, I read more and understand what regular / quick method of accounting is. You can find several posts (e.g. here ) which give a clear explanation. Basically, it makes sense for most small entrepreneur to use quick method to remit HST.</description>
     </item>
     

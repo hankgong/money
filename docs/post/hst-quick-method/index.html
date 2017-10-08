@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
 
   
-  <title>Google Sheet XIRR Function Calculates CAGR (Compound Annual Growth Rate)</title>
+  <title>HST Remitting with Quick Method at Ontario</title>
 
   
   
@@ -15,19 +15,15 @@
 
   
   <meta name="author" content="Money Geeker" />
-  <meta name="description" content="Function introduction. What is XIRR.
-Example.
-Real usage." />
+  <meta name="description" content="My accountant just helped me with reporting my corporation tax T2 for year 2016. It ended up with owing a large amount of HST to the Mr. Taxman. To understand how HST is calculated, I read more and understand what regular / quick method of accounting is. You can find several posts (e.g. here ) which give a clear explanation. Basically, it makes sense for most small entrepreneur to use quick method to remit HST." />
 
   
   
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@gohugoio" />
-    <meta name="twitter:title" content="Google Sheet XIRR Function Calculates CAGR (Compound Annual Growth Rate)" />
-    <meta name="twitter:description" content="Function introduction. What is XIRR.
-Example.
-Real usage." />
-    <meta name="twitter:image" content="http://money.geekylife.net/img/avatar.jpg" />
+    <meta name="twitter:title" content="HST Remitting with Quick Method at Ontario" />
+    <meta name="twitter:description" content="My accountant just helped me with reporting my corporation tax T2 for year 2016. It ended up with owing a large amount of HST to the Mr. Taxman. To understand how HST is calculated, I read more and understand what regular / quick method of accounting is. You can find several posts (e.g. here ) which give a clear explanation. Basically, it makes sense for most small entrepreneur to use quick method to remit HST." />
+    <meta name="twitter:image" content="http://money.geekylife.net/media/posts/hst-quick-method/quick-menthod-tax.png" />
   
 
 
@@ -36,7 +32,7 @@ Real usage." />
 <meta name="generator" content="Hugo 0.27.1" />
 
 
-<link rel="canonical" href="http://money.geekylife.net/post/xirr-usage/" />
+<link rel="canonical" href="http://money.geekylife.net/post/hst-quick-method/" />
 <link rel="alternative" href="http://money.geekylife.net/index.xml" title="Getting Rich in a Geeky Way" type="application/atom+xml" />
 
 
@@ -192,22 +188,44 @@ Real usage." />
 
   <section class="main post-detail">
     <header class="post-header">
-      <h1 class="post-title">Google Sheet XIRR Function Calculates CAGR (Compound Annual Growth Rate)</h1>
-      <p class="post-meta">@Money Geeker · Sep 20, 2017 · 1 min read</p>
+      <h1 class="post-title">HST Remitting with Quick Method at Ontario</h1>
+      <p class="post-meta">@Money Geeker · Sep 14, 2017 · 2 min read</p>
     </header>
-    <article class="post-content"><p>Function introduction. What is XIRR.</p>
+    <article class="post-content"><p>My accountant just helped me with reporting my corporation tax T2 for year 2016. It ended up with owing a large amount of HST to the Mr. Taxman. To understand how HST is calculated, I read more and understand what regular / quick method of accounting is. You can find several posts (e.g. <a href="http://777taxes.com/is-the-quick-method-good-for-you">here</a> ) which give a clear explanation. Basically, it makes sense for most small entrepreneur to use quick method to remit HST. However, I&rsquo;m curious at what point it will be better to use regular HST remitting.</p>
 
-<p>Example.</p>
+<p>Here I will use a simple quantitative model to capture when quick method is better for you and how much you will save on using this method.</p>
 
-<p>Real usage.</p>
+<p>Assuming the total income excluding HST is $/I/$ here, the total HST will be $/0.13 \times I/$. Let&rsquo;s say you have total amount of $/T/$ taxable expenses (Input Tax Credits - ITC), which means you can get tax back from these expenses.</p>
+
+<ul>
+<li>Regular return method</li>
+</ul>
+
+<p>$$R_{r} = 0.13 \times I - \frac{T \times 13}{113}$$</p>
+
+<ul>
+<li>Quick method (For simplification, we will omit the extra $300 credit - 1% of the first $30,000)</li>
+</ul>
+
+<p>$$R_{q} = 113\% \times I \times 8.8\% $$</p>
+
+<p>We can have $/1.13*0.088=0.09944\approx0.1/$; so CRA use 10%, a very easy-to-use ratio for you to apply on your before-tax corporation income. If you have hourly rate is $50/h, you can roughly calculate $/R_{q}=50*2000*0.1=10K/$ minus $/300/$ as the HST to remit.</p>
+
+<p>Now we want $/R_q &lt; R_r/$. By solving this inequality, we have</p>
+
+<p>$$\frac{I}{T} &gt; 3.76 \quad or \quad  T&lt;0.265I$$</p>
+
+<p>Basically, it means that when $/T/$ is lower than $/0.265I/$, it will be better to use quick method for HST. If the taxable expenses is much higher, then you&rsquo;d better to use regular HST return.</p>
+
+<p>Here I plotted one figure for varying ITC on fixed income $/I=100K/$ ($/\approx50/h/$). Note that the $300 credit is counted in this figure.</p>
+
+<p><img src="http://money.geekylife.net/media/posts/hst-quick-method/quick-menthod-tax.png" alt="Regular Method vs Quick Method" /></p>
 </article>
     <footer class="post-footer">
       
       <ul class="post-tags">
         
-          <li><a href="http://money.geekylife.net/tags/investment"><span class="tag">Investment</span></a></li>
-        
-          <li><a href="http://money.geekylife.net/tags/spreadsheet"><span class="tag">Spreadsheet</span></a></li>
+          <li><a href="http://money.geekylife.net/tags/corporate-tax"><span class="tag">Corporate Tax</span></a></li>
         
       </ul>
       
